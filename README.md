@@ -63,6 +63,31 @@ gcc output.c -o program
 ### Prerequisites
 - GCC Compiler
 - Make Utility (Optional)
+---
+
+**Example**
+
+Sample input (examples/example1.c):
+
+int main() {
+    return 0;
+}
+
+Output during compilation:
+
+TOKEN_INT: int
+TOKEN_IDENTIFIER: main
+TOKEN_OPERATOR: (
+TOKEN_OPERATOR: )
+...
+Parsing tokens...
+Parsing complete.
+Generating output C code...
+Code generation complete: output.c
+
+
+---
+
 
 ### Steps to Compile and Run
 
